@@ -1,0 +1,95 @@
+p{
+    text-align: justify;
+}
+
+/*
+.header h2,form{
+    float: left;
+}
+.header form{
+    padding-top: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.header p{
+    float: left;
+    padding-top: 30px;
+    margin-left: 170px;
+}
+*/
+
+.navbar{
+   background-color: white;
+}
+.top-menu li a{
+    border-radius: 20px;
+}
+.top-menu{
+    border-bottom: 2px solid #000;
+}
+
+.main-content{
+    margin-top: 10px;
+}
+
+.image{
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+.image img{
+    margin-top: 10px
+}
+
+.tab{
+    padding-top: 15px;
+    
+}
+.w3-container, .right-content{
+    margin-bottom: 5px;
+}
+
+.mid-content img{
+    float: left;
+}
+
+.right-content-1, .right-content-2, .right-content-3, .right-content-4{
+    border: 2px solid #ccc;
+    padding: 10px
+}
+.right-content-2, .right-content-3, .right-content-4{
+    margin-top: 30px;
+}
+
+.right-content-4 img{
+    margin-right: 10px;
+    float: left;
+}
+
+
+.footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.footer li{
+    list-style: none;
+}
+
+.red{
+    color:maroon;
+}
+
+@media (max-width: 768px){
+    .header form, .headline{
+        display: none;
+    }
+    .header p{
+        display: none;
+    }
+    .footer .one, .two, .three{
+        float: left;
+        padding-left: 20px;
+    }
+
+}
